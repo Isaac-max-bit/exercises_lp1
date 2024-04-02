@@ -16,7 +16,13 @@ public class Ejercicios {
      */
     public String ejercicio1(int num1, int num2) {
         // Implementar solución
-        return "";
+        if (num1 > num2) {
+            return "El numero mayor es: num1";
+        } else if (num2 > num1) {
+            return "El numero mayor es: num1";
+        } else {
+            return "Los dos numeros son iguales";
+        }
     }
     // ----------------------------------------------------------------------------------------
 
@@ -32,7 +38,7 @@ public class Ejercicios {
      *         Lo siento, usted ha reprobado el examen.
      */
     public String ejercicio2(double calificacion) {
-       // Implementar solución
+        // Implementar solución
         return "";
     }
 
@@ -46,7 +52,7 @@ public class Ejercicios {
      *               original de un
      *               producto.
      * @return El método devuelve el precio final después de aplicar un descuento
-     *         basado en el precio de entrada.           
+     *         basado en el precio de entrada.
      */
     public double ejercicio3(double precio) {
         // Implementar solución

@@ -5,7 +5,7 @@ public class Main {
         Ejercicios ejercicios = new Ejercicios();
 
         System.out.println("Ejercicio 1");
-        System.out.println(ejercicios.ejercicio1(10, 10));
+        System.out.println(ejercicios.ejercicio1(4, 10));
         System.out.println("-------------------------------------------------");
 
         System.out.println("Ejercicio 2");
@@ -21,7 +21,7 @@ public class Main {
         System.out.println("-------------------------------------------------");
 
         System.out.println("Ejercicio 5");
-        System.out.println(ejercicios.ejercicio5(2,5,8));
+        System.out.println(ejercicios.ejercicio5(2, 5, 8));
         System.out.println("-------------------------------------------------");
 
     }
