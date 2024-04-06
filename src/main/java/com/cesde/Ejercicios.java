@@ -16,32 +16,38 @@ public class Ejercicios {
      */
     public String ejercicio1(int num1, int num2) {
         // Implementar solución
-        if (num1 > num2) {
+        if (num1 > num2){
             return "El numero mayor es: num1";
         } else if (num2 > num1) {
-            return "El numero mayor es: num1";
+            return "El numero mayor es: num2";
         } else {
             return "Los dos numeros son iguales";
         }
-    }
+    }        
     // ----------------------------------------------------------------------------------------
 
     /**
      * La función determina si un estudiante ha aprobado o reprobado un examen en
      * función de su nota (menor a 3.5->reprobado, mayor o igual a 3.5->aprobado).
      * 
-     * @param calificacion El parámetro "calificación" representa la calificación o
+     * @param calificación El parámetro "calificación" representa la calificación o
      *                     puntaje de un
      *                     estudiante en un examen de 0.0 - 5.0.
      * @return El método compara la calificación y devuelve los siguientes mensajes:
      *         ¡Felicidades! Usted ha aprobado el examen.
      *         Lo siento, usted ha reprobado el examen.
      */
-    public String ejercicio2(double calificacion) {
+    public String ejercicio2(double calificación){
         // Implementar solución
-        return "";
-    }
-
+        if (calificación >= 3.5){
+            return"¡FELICIDADES! Usted ha aprobado el examen.";
+        } else if (calificación >=1.8){
+                
+            return"Lo siento, usted ha reprobado el examen.";
+        }
+        return null;
+}
+ 
     // ----------------------------------------------------------------------------------------
 
     /**
@@ -56,6 +62,7 @@ public class Ejercicios {
      */
     public double ejercicio3(double precio) {
         // Implementar solución
+
         return 0;
     }
 
