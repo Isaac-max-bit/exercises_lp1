@@ -17,11 +17,11 @@ public class Main {
         System.out.println("-------------------------------------------------");
 
         System.out.println("Ejercicio 4");
-        System.out.println(ejercicios.ejercicio4(1, 10, 0, 0, 0));
+        System.out.println(ejercicios.ejercicio4(3, 10, 5, 4, 12));
         System.out.println("-------------------------------------------------");
 
         System.out.println("Ejercicio 5");
-        System.out.println(ejercicios.ejercicio5(2, 5, 8));
+        System.out.println(ejercicios.ejercicio5(4, 6, 8));
         System.out.println("-------------------------------------------------");
 
     }

@@ -62,8 +62,14 @@ public class Ejercicios {
      */
     public double ejercicio3(double precio) {
         // Implementar solución
+        double descuento = (precio >= 50000.00) ? precio * 0.1 : precio * 0.0;
+        
+        double precioFinal = precio - descuento;
 
-        return 0;
+        if(precio >=50000.00){
+            return precioFinal;
+        }
+        return precioFinal;
     }
 
     // ----------------------------------------------------------------------------------------
@@ -95,7 +101,19 @@ public class Ejercicios {
     public String ejercicio4(int tipoFigura, double ladoCuadrado, double baseTriangulo, double alturaTriangulo,
             double radioCirculo) {
         // Implementar solución
-        return "";
+        double areacuadrado = ladoCuadrado * ladoCuadrado;
+        double areaTriangulo = baseTriangulo * alturaTriangulo / 2;
+        double areaCirculo = 3.1415 * radioCirculo;
+        if (tipoFigura == 1){
+            return  "el area del cuadrado es "+areacuadrado;
+
+        } else if(tipoFigura == 2){
+            return  "el area del triangulo es "+areaTriangulo;
+
+        } else if (tipoFigura == 3) {
+            return  "el area del circulo es "+areaCirculo;
+        }
+        return "Tipo de figura no válida.";
     }
 
     // ----------------------------------------------------------------------------------------
@@ -112,6 +130,13 @@ public class Ejercicios {
      */
     public int ejercicio5(int num1, int num2, int num3) {
         // Implementar solución
+        if(num1 < num2 && num1 < num3){
+            return num1;
+        } else if (num2 < num1 && num2 < num3){
+            return num2;
+        } else if (num3 < num1 && num3 < num2){
+
+        }
         return 0;
     }
 }
